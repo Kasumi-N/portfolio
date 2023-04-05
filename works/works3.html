@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasumi Portfolio</title>
+    <meta name="description" content="Webデザイナーkasumiの制作実績一覧です">
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../android-chrome-192x192.png">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div id="header" class="header_wrap">
+            <nav class="pc_nav">
+                <ul>
+                    <li><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../about/index.html#skill">SKILL</a></li>
+                    <li><a href="index.html">WORKS</a></li>
+                    <li><a href="../contact/index.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="sp_btn"><span></span></div>
+            <nav class="sp_nav">
+                <ul>
+                    <li><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../about/index.html#skill">SKILL</a></li>
+                    <li><a href="index.html">WORKS</a></li>
+                    <li><a href="../contact/index.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="particles-js02"></div>
+        <section class="works section">
+            <h2>WORKS</h2>
+            <p class="h2_ja">制作実績</p>
+
+            <div class="works_block">
+                <img class="works3_pic" src="images/PC_Works_Deep3@2x.png" alt="works3">
+
+                <div class="works_list">
+                    <table class="works_table">
+                        <tr>
+                            <th>カテゴリー</th>
+                            <td>Web広告バナー</td>
+                        </tr>
+                        <tr>
+                            <th>担当範囲</th>
+                            <td>デザイン</td>
+                        </tr>
+                        <tr>
+                            <th>使用ツール</th>
+                            <td>Photoshop<br>Illustrator</td>
+                        </tr>
+                        <tr>
+                            <th>制作日数</th>
+                            <td>5日</td>
+                        </tr>
+                    </table>
+                    <dl class="works_dl">
+                        <dt>こだわりポイント</dt>
+                        <dd>旅行に関するさまざまなコンテンツを紹介<br class="pc_only">するアプリの広告のため、旅行の行き先選<br
+                                class="pc_only">びを決めるワクワク感と冒険を演出しまし<br class="pc_only">た。また、ロゴのオレンジをアクセントカ<br
+                                class="pc_only">ラーにし、アプリ版なのでタブレットで見<br class="pc_only">ているような構成にしました。</dd>
+                    </dl>
+                </div>
+
+            </div>
+            <a class="back_btn" href="index.html">BACK</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="btn pc_only">
+            <div class="topback_btn">
+                <a href="../index.html">
+                    <img src="../images/PC_To_Top_2@2x.png" alt="Top_Back">
+                </a>
+            </div>
+            <div class="contact_btn">
+                <a href="../contact/index.html">
+                    <img src="../images/PC_To_Contact@2x.png" alt="Contact">
+                </a>
+            </div>
+        </div>
+
+        <nav class="footer_nav">
+            <img class="footer_logo" src="../images/PC_main_Logo@2x.png" alt="ロゴ">
+            <div class="footer_block">
+                <ul class="footer_list">
+                    <li><a href="../about/index.html">ABOUT</a></li>
+                    <li><a href="../about/index.html">SKILL</a></li>
+                    <li><a href="index.html">WORKS</a></li>
+                    <li><a href="../contact/index.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <p class="copyright">&copy;2023 Kasumi Portfolio</p>
+    </footer>
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        $(function () {
+            $('.sp_btn, .sp_nav li').on('click', function () {
+                $(".sp_btn").toggleClass("open");
+                $(".sp_nav").fadeToggle();
+            });
+        });
+    </script>
+</body>
+
+</html>

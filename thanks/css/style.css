@@ -1,0 +1,81 @@
+@charset "utf-8";
+html,
+body {
+  height: 100%;
+}
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+#particles-js02 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.thanks_block {
+  text-align: center;
+  padding-top: 250px;
+}
+.thanks_eng {
+  font-size: 30px;
+  color: #fbcd1f;
+  font-weight: bold;
+}
+.thanks_ja {
+  font-size: 25px;
+  color: #fbcd1f;
+  padding-top: 15px;
+}
+.thanks_text {
+  font-size: 16px;
+  padding-top: 42px;
+  line-height: 1.87;
+}
+.thanks_text p {
+  line-height: 1.87;
+}
+.thanks_name {
+  padding-top: 25px;
+}
+.backtop_btn {
+  width: 195px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: #b2bed4;
+  border-radius: 30px;
+  color: #002870;
+  margin-top: 43px;
+  margin-bottom: 230px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .thanks_block {
+    padding-top: 130px;
+  }
+  .thanks_eng {
+    font-size: 20px;
+  }
+  .thanks_ja {
+    font-size: 15px;
+    padding-top: 13px;
+  }
+  .thanks_text {
+    font-size: 14px;
+    padding-top: 26px;
+  }
+  .thanks_text p {
+    line-height: 2.14;
+  }
+  .thanks_name {
+    padding-top: 27px;
+  }
+  .backtop_btn {
+    margin-bottom: 72px;
+  }
+}
