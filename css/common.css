@@ -58,20 +58,20 @@ html {
   box-sizing: border-box;
   z-index: 98;
   display: flex;
+  justify-content: space-between;
+  padding: 16px 3% 0 3%;
+  align-items: center;
 }
 .header_logo {
   width: 200px;
 }
-
 .pc_nav ul {
   display: flex;
   justify-content: flex-end;
   font-size: 15px;
 }
-
 .pc_nav ul li {
   padding-right: 64px;
-  padding-top: 39.5px;
 }
 
 /* ハンバーガー */
