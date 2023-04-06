@@ -60,7 +60,6 @@ button {
   .contact {
     padding-top: 80px;
   }
-
   .contact_text {
     padding-top: 28px;
     font-size: 14px;
@@ -72,7 +71,6 @@ button {
   label {
     padding-bottom: 5px;
   }
-
   #name,
   #company,
   #email,
@@ -80,5 +78,8 @@ button {
   #msg {
     width: 316px;
     height: 33px;
+  }
+  #msg {
+    height: 100px;
   }
 }
