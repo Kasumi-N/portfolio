@@ -304,6 +304,10 @@ footer {
     font-size: 20px;
   }
 
+  .header_logo {
+    width: 100px;
+  }
+
   /* footer レスポンシブ*/
   .footer_nav {
     padding-top: 40px;
